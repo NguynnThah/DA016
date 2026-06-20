@@ -1,0 +1,72 @@
+# Dataset gốc (thường rất nặng, không nên đưa lên GitHub)
+data/raw/
+
+
+# Trained Models
+
+# Toàn bộ model sau khi train
+# Nếu sau này muốn push model thì xóa dòng này
+models/
+
+# Hoặc chỉ ignore các file model
+# *.pkl
+# *.joblib
+# *.h5
+# *.pt
+# *.pth
+
+# Outputs
+# Kết quả sinh tự động từ notebook hoặc app
+outputs/
+
+# Nếu muốn giữ biểu đồ và bảng thì dùng thay thế:
+# outputs/*
+# !outputs/figures/
+# !outputs/tables/
+
+# Python cache
+
+# Cache Python tự sinh
+__pycache__/
+
+# File biên dịch Python
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+
+# Cache của Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+
+# Môi trường Python
+venv/
+env/
+.venv/
+
+# Biến môi trường
+.env
+
+# IDE
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Opreating System
+
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store
+
+# Streamlit secrets (nếu có API key)
+.streamlit/secrets.toml
+
+# Log files
+*.log
