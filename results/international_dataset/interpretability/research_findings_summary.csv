@@ -1,0 +1,4 @@
+﻿analysis,main_result
+Global SHAP Importance,Psychological factors and digital exposure features are key predictors of Digital Burnout.
+Local SHAP Explanation,Individual predictions can be explained through feature-level SHAP contributions.
+Feature Validation Consistency,Important features are consistent across statistical validation and explainable AI analysis.
