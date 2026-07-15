@@ -1,131 +1,33 @@
-# Import thư viện Streamlit
-
 import streamlit as st
 
-
-
-# Cấu hình thông tin hiển thị của ứng dụng
-
+# Thiết lập cấu hình trang hiển thị
 st.set_page_config(
     page_title="Digital Burnout Assessment System",
     layout="wide"
 )
 
+# Tiêu đề chính của ứng dụng
+st.title("Hệ thống đánh giá kiệt sức kỹ thuật số ở sinh viên Việt Nam")
 
-
-# Hiển thị tiêu đề chính của hệ thống
-
-st.title(
-    "Digital Burnout Assessment System"
-)
-
-
-
-# Hiển thị mô tả tổng quan hệ thống
-
+# Giới thiệu tổng quan về hệ thống và mục tiêu
+st.subheader("Giới thiệu hệ thống")
 st.write(
-    """
-    Hệ thống đánh giá Digital Burnout dành cho sinh viên Việt Nam.
-
-    Hệ thống kết hợp hai thành phần:
-
-    - Digital Burnout Indicator (DBI):
-      Đánh giá mức độ Digital Burnout dựa trên bộ chỉ số được xây dựng
-      từ dữ liệu khảo sát sinh viên Việt Nam.
-
-    - Machine Learning Model:
-      Dự đoán nguy cơ Digital Burnout bằng mô hình được huấn luyện
-      trên bộ dữ liệu quốc tế.
-    """
+    "Hệ thống giúp sinh viên Việt Nam tự đánh giá mức độ kiệt sức kỹ thuật số của bản thân. "
+    "Ứng dụng kết hợp giữa Khung đánh giá DBI (Digital Burnout Index) xây dựng dựa trên dữ liệu khảo sát tại Việt Nam "
+    "và mô hình Machine Learning được huấn luyện để dự đoán mức độ rủi ro kiệt sức dựa trên các chỉ số hành vi, tâm lý."
 )
 
-
-
-# Tạo bố cục giới thiệu các chức năng chính
-
-first_column, second_column, third_column = st.columns(3)
-
-
-
-# Hiển thị chức năng đánh giá dữ liệu đầu vào
-
-with first_column:
-
-    st.subheader(
-        "Student Assessment"
-    )
-
-    st.write(
-        """
-        Thu thập thông tin về:
-
-        - Hành vi sử dụng thiết bị
-        - Thói quen học tập
-        - Giấc ngủ
-        - Trạng thái burnout
-        """
-    )
-
-
-
-# Hiển thị chức năng tính toán DBI
-
-with second_column:
-
-    st.subheader(
-        "DBI Analysis"
-    )
-
-    st.write(
-        """
-        Hệ thống tính toán:
-
-        - Digital Burnout Score
-        - Burnout Level
-        - Các nhóm chỉ số rủi ro
-        """
-    )
-
-
-
-# Hiển thị chức năng dự đoán Machine Learning
-
-with third_column:
-
-    st.subheader(
-        "Machine Learning Prediction"
-    )
-
-    st.write(
-        """
-        Mô hình dự đoán:
-
-        - Burnout Risk
-        - Prediction Probability
-        """
-    )
-
-
-
-# Hiển thị hướng dẫn sử dụng hệ thống
-
-st.subheader(
-    "Hướng dẫn sử dụng"
-)
-
-
+# Mô tả các chức năng chính của hệ thống
+st.subheader("Các chức năng chính")
 st.write(
-    """
-    1. Truy cập trang Assessment để nhập thông tin cá nhân.
-
-    2. Hệ thống xử lý dữ liệu đầu vào thông qua:
-       - DBI Assessment Framework.
-       - Machine Learning Model.
-
-    3. Kết quả bao gồm:
-       - Digital Burnout Score.
-       - Risk Level.
-       - Burnout Prediction.
-       - Recommendation.
-    """
+    "1. Khảo sát đánh giá: Sinh viên cung cấp thông tin về thói quen sử dụng thiết bị, hiệu suất nhận thức, "
+    "chất lượng giấc ngủ và các triệu chứng tâm lý cá nhân.\n"
+    "2. Phân tích đa chiều: Hệ thống tính toán điểm số cụ thể cho từng khía cạnh như mức độ tiếp xúc kỹ thuật số, "
+    "triệu chứng tâm lý, hiệu suất nhận thức và khả năng phục hồi giấc ngủ.\n"
+    "3. Dự đoán từ Machine Learning: Đưa ra cảnh báo nguy cơ kiệt sức kỹ thuật số bằng mô hình học máy chuyên sâu.\n"
+    "4. Đề xuất giải pháp: Cung cấp các khuyến nghị cá nhân hóa nhằm cải thiện sức khỏe tinh thần và tối ưu hóa thói quen công nghệ."
 )
+
+# Hướng dẫn người dùng di chuyển sang trang làm bài khảo sát
+st.subheader("Hướng dẫn sử dụng")
+st.write("Vui lòng chọn mục Assessment ở thanh điều hướng bên cạnh để bắt đầu bài đánh giá tình trạng của bạn.")
