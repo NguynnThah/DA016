@@ -1,0 +1,37 @@
+indicator,dataset,dbi_dimension,indicator_group,consistency_score,indicator_priority
+concentration_score,International Dataset,Cognitive Performance,Concentration Ability,,Dataset-specific Indicator
+deep_work_hours,International Dataset,Cognitive Performance,Deep Work Capacity,,Dataset-specific Indicator
+distraction_frequency,International Dataset,Cognitive Performance,Digital Distraction,,Dataset-specific Indicator
+focus_sessions,International Dataset,Cognitive Performance,Focus Ability,,Dataset-specific Indicator
+motivation_level,International Dataset,Cognitive Performance,Motivation Level,0.8,Supporting Indicator
+motivation_level,Vietnam Dataset,Cognitive Performance,Motivation Level,0.8,Supporting Indicator
+performance_decline,Vietnam Dataset,Cognitive Performance,Performance Decline,,Dataset-specific Indicator
+task_completion_rate,International Dataset,Cognitive Performance,Task Performance,,Dataset-specific Indicator
+work_satisfaction,International Dataset,Cognitive Performance,Work Satisfaction,,Dataset-specific Indicator
+age,International Dataset,Context Variables,Demographic Information,,Dataset-specific Indicator
+internet_stability,International Dataset,Context Variables,Digital Infrastructure,,Dataset-specific Indicator
+remote_work_days,International Dataset,Context Variables,Remote Work Exposure,,Dataset-specific Indicator
+workspace_quality,International Dataset,Context Variables,Working Environment,,Dataset-specific Indicator
+app_switch_frequency,International Dataset,Digital Exposure,Application Switching Behavior,,Dataset-specific Indicator
+doomscrolling_duration,International Dataset,Digital Exposure,Doomscrolling Behavior,1.0,Core Indicator
+doomscrolling_duration,Vietnam Dataset,Digital Exposure,Doomscrolling Behavior,1.0,Core Indicator
+late_night_device_usage,International Dataset,Digital Exposure,Late Night Device Usage,,Dataset-specific Indicator
+notification_count,International Dataset,Digital Exposure,Notification Overload,1.0,Core Indicator
+notification_count,Vietnam Dataset,Digital Exposure,Notification Overload,1.0,Core Indicator
+meeting_hours,International Dataset,Digital Exposure,Online Workload,,Dataset-specific Indicator
+daily_screen_time,International Dataset,Digital Exposure,Screen Time Exposure,,Dataset-specific Indicator
+smartphone_unlocks,International Dataset,Digital Exposure,Smartphone Usage Frequency,,Dataset-specific Indicator
+social_media_hours,International Dataset,Digital Exposure,Social Media Exposure,,Dataset-specific Indicator
+digital_exhaustion,Vietnam Dataset,Psychological Symptoms,Digital Exhaustion,,Dataset-specific Indicator
+digital_stress,Vietnam Dataset,Psychological Symptoms,Digital Stress,,Dataset-specific Indicator
+emotional_exhaustion,International Dataset,Psychological Symptoms,Emotional Exhaustion,0.85,Core Indicator
+emotional_exhaustion,Vietnam Dataset,Psychological Symptoms,Emotional Exhaustion,0.85,Core Indicator
+loss_of_interest,Vietnam Dataset,Psychological Symptoms,Loss of Interest,,Dataset-specific Indicator
+mental_fatigue,International Dataset,Psychological Symptoms,Mental Fatigue,,Dataset-specific Indicator
+stress_level,International Dataset,Psychological Symptoms,Stress Level,,Dataset-specific Indicator
+physical_activity,International Dataset,Sleep & Recovery,Physical Activity,,Dataset-specific Indicator
+physical_fatigue,Vietnam Dataset,Sleep & Recovery,Physical Fatigue,,Dataset-specific Indicator
+caffeine_intake,International Dataset,Sleep & Recovery,Recovery Behavior,,Dataset-specific Indicator
+sleep_hours,International Dataset,Sleep & Recovery,Sleep Duration,,Dataset-specific Indicator
+sleep_quality,International Dataset,Sleep & Recovery,Sleep Quality,0.8,Supporting Indicator
+sleep_quality,Vietnam Dataset,Sleep & Recovery,Sleep Quality,0.8,Supporting Indicator

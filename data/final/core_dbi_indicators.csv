@@ -1,0 +1,4 @@
+indicator,dataset,dbi_dimension,indicator_group,consistency_score,indicator_priority
+doomscrolling_duration,International Dataset,Digital Exposure,Doomscrolling Behavior,1.0,Core Indicator
+notification_count,International Dataset,Digital Exposure,Notification Overload,1.0,Core Indicator
+emotional_exhaustion,International Dataset,Psychological Symptoms,Emotional Exhaustion,0.85,Core Indicator
