@@ -1,0 +1,16 @@
+Feature,Mean_SHAP
+numerical__app_switch_frequency,0.39933455
+numerical__smartphone_unlocks,0.34721142
+numerical__motivation_level,0.33356172
+numerical__doomscrolling_duration,0.29790527
+numerical__sleep_hours,0.27816632
+numerical__concentration_score,0.24948595
+numerical__sleep_quality,0.2163362
+numerical__daily_screen_time,0.2145496
+numerical__late_night_device_usage,0.21194409
+numerical__deep_work_hours,0.20556599
+numerical__distraction_frequency,0.1964821
+numerical__notification_count,0.19323196
+numerical__social_media_hours,0.17284349
+numerical__task_completion_rate,0.170771
+numerical__focus_sessions,0.13408479

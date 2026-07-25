@@ -1,19 +1,13 @@
 # Dataset gốc (thường rất nặng, không nên đưa lên GitHub)
 data/raw/
 
+# Dataset đã được làm sạch 
+data/processed/
 
 # Trained Models
 
 # Toàn bộ model sau khi train
-# Nếu sau này muốn push model thì xóa dòng này
 models/
-
-# Hoặc chỉ ignore các file model
-# *.pkl
-# *.joblib
-# *.h5
-# *.pt
-# *.pth
 
 # Outputs
 # Kết quả sinh tự động từ notebook hoặc app
@@ -62,11 +56,6 @@ env/
 # Windows
 Thumbs.db
 
-# macOS
-.DS_Store
-
-# Streamlit secrets (nếu có API key)
-.streamlit/secrets.toml
 
 # Log files
 *.log

@@ -1,0 +1,11 @@
+﻿feature,mean_shap,mean_abs_shap
+emotional_exhaustion,-0.2557032,0.7613387
+stress_level,-0.1463013,0.5652972
+work_satisfaction,-0.05963002,0.36578408
+daily_screen_time,-0.045926962,0.29301935
+doomscrolling_duration,-0.0361479,0.27108157
+late_night_device_usage,-0.02003714,0.24573205
+distraction_frequency,-0.019225039,0.2182741
+sleep_hours,-0.012257783,0.16975106
+physical_activity,-0.008846247,0.14991505
+notification_count,-0.006727683,0.13861725
