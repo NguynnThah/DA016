@@ -1,0 +1,16 @@
+Rank,Feature,Feature Value,SHAP Value,Direction,Absolute SHAP
+1,numerical__sleep_hours,1.6605,-0.7353,Negative,0.7353
+2,numerical__smartphone_unlocks,0.624,0.5919,Positive,0.5919
+3,numerical__focus_sessions,1.253,0.2712,Positive,0.2712
+4,numerical__app_switch_frequency,-1.2566,-0.2589,Negative,0.2589
+5,numerical__motivation_level,-1.0966,0.252,Positive,0.252
+6,numerical__concentration_score,0.7153,0.2036,Positive,0.2036
+7,numerical__social_media_hours,0.036,0.1697,Positive,0.1697
+8,numerical__notification_count,-0.1468,0.1544,Positive,0.1544
+9,numerical__deep_work_hours,1.4043,-0.1049,Negative,0.1049
+10,numerical__doomscrolling_duration,-0.4784,-0.099,Negative,0.099
+11,numerical__sleep_quality,-1.1248,-0.0806,Negative,0.0806
+12,numerical__task_completion_rate,0.7796,0.079,Positive,0.079
+13,numerical__daily_screen_time,0.133,-0.0356,Negative,0.0356
+14,numerical__distraction_frequency,0.2944,0.0284,Positive,0.0284
+15,numerical__late_night_device_usage,0.3554,0.0079,Positive,0.0079
