@@ -1,6 +1,0 @@
-indicator,mean_abs_shap_international,mean_abs_shap_vietnam,validation_international,importance_international,status_international,validation_vietnam,dataset_presence_score,validation_international_score,validation_vietnam_score,validation_score,shap_international_available,shap_vietnam_available,shap_score,consistency_score,indicator_priority
-doomscrolling_duration,0.27108157,0.29790527,True,0.0545447949702314,Core Feature,True,1,1,1,1.0,1,1,1.0,1.0,Core Indicator
-emotional_exhaustion,0.7613387,,True,0.2273023184276399,Core Feature,True,1,1,1,1.0,1,0,0.5,0.85,Core Indicator
-motivation_level,0.0032092922,0.33356172,False,0.0134003243878113,Supporting Feature,True,1,0,1,0.5,1,1,1.0,0.8,Supporting Indicator
-notification_count,0.13861725,0.19323196,True,0.0350397060214229,Validated Feature,True,1,1,1,1.0,1,1,1.0,1.0,Core Indicator
-sleep_quality,0.0034619763,0.2163362,False,0.0134241804267725,Supporting Feature,True,1,0,1,0.5,1,1,1.0,0.8,Supporting Indicator

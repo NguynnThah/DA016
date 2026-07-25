@@ -1,4 +1,17 @@
-indicator,dataset,dbi_dimension,indicator_group,consistency_score,indicator_priority
-doomscrolling_duration,International Dataset,Digital Exposure,Doomscrolling Behavior,1.0,Core Indicator
-notification_count,International Dataset,Digital Exposure,Notification Overload,1.0,Core Indicator
-emotional_exhaustion,International Dataset,Psychological Symptoms,Emotional Exhaustion,0.85,Core Indicator
+indicator,dbi_dimension,coverage,international_validation,vietnam_validation,international_shap,vietnam_shap,indicator_priority
+emotional_exhaustion,Psychological Symptoms,Common,True,True,True,False,Core Indicator
+daily_screen_time,Digital Exposure,Common,True,True,True,True,Core Indicator
+social_media_hours,Digital Exposure,Common,True,True,True,True,Core Indicator
+doomscrolling_duration,Digital Exposure,Common,True,True,True,True,Core Indicator
+late_night_device_usage,Digital Exposure,Common,True,True,True,True,Core Indicator
+notification_count,Digital Exposure,Common,True,True,True,True,Core Indicator
+smartphone_unlocks,Digital Exposure,Common,True,True,True,True,Core Indicator
+app_switch_frequency,Digital Exposure,Common,True,True,True,True,Core Indicator
+concentration_score,Cognitive Performance,Common,True,True,True,True,Core Indicator
+distraction_frequency,Cognitive Performance,Common,True,True,True,True,Core Indicator
+focus_sessions,Cognitive Performance,Common,True,True,True,True,Core Indicator
+deep_work_hours,Cognitive Performance,Common,True,True,True,True,Core Indicator
+task_completion_rate,Cognitive Performance,Common,True,True,True,True,Core Indicator
+motivation_level,Cognitive Performance,Common,True,True,True,True,Core Indicator
+sleep_hours,Sleep & Recovery,Common,True,True,True,True,Core Indicator
+sleep_quality,Sleep & Recovery,Common,True,True,True,True,Core Indicator
